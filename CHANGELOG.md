@@ -4,6 +4,32 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [v1.1.0] - Google Analytics upgrade
+
+### Added
+
+* Integrated Google Analytics 4 (GA4) tracking across all website pages
+* Added global site tracking using Measurement ID: G-J9MRKRB2GG
+* Enabled real-time visitor tracking and analytics dashboard
+
+### Changed
+
+* Replaced legacy Universal Analytics (UA) with GA4 (gtag.js)
+* Standardized analytics script injection across all HTML pages
+
+### Removed
+
+* Removed deprecated Google Analytics (UA-25681998-1) tracking code
+* Removed legacy `ga.js` script references
+
+### Notes
+
+* Analytics now supports modern tracking features (event-based model)
+* Realtime reporting available in GA4 dashboard
+* No impact to website UI or performance observed
+
+---
+
 ## [v1.0.0] - Initial migration to GitHub Pages
 
 ### Added
@@ -38,7 +64,7 @@ All notable changes to this project will be documented in this file.
 ## Versioning Guide
 
 * **v1.0.x** → Minor fixes (text, images, small corrections)
-* **v1.1.x** → Content updates (new pages, new products)
+* **v1.1.x** → Feature updates (analytics, integrations)
 * **v2.0.0** → Major changes (UI redesign or structural updates)
 
 ---
